@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="1" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="Floors_Tiles_Fixed.tsx"/>
+ <layer id="1" name="ground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   <chunk x="0" y="0" width="16" height="16">
+   eJyTYmBgkBrFo3gUj0gMADsMGgE=
+  </chunk>
+   <chunk x="16" y="0" width="16" height="16">
+   eJyTYmBgkCIDwwA5ekf1j+of1T849AMADzIWwQ==
+  </chunk>
+   <chunk x="0" y="16" width="16" height="16">
+   eJyTYmBgkBrBeBSMgpEMANJKBoE=
+  </chunk>
+   <chunk x="16" y="16" width="16" height="16">
+   eJyTYmBgkCIDwwA5egeT/lEwCkYyAAAPTAWx
+  </chunk>
+  </data>
+ </layer>
+ <layer id="2" name="background" width="30" height="20">
+  <data encoding="base64" compression="zlib"/>
+ </layer>
+ <layer id="3" name="foreground" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   <chunk x="0" y="0" width="16" height="16">
+   eJxjYBgFgxH4UqC3AIh9KDCjBogjgDiSAv0gXEum/lFAPwAAob0D+Q==
+  </chunk>
+  </data>
+ </layer>
+</map>
