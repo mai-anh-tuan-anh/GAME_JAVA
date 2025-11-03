@@ -1,4 +1,4 @@
-gibuildscript {
+buildscript {
   repositories {
     mavenCentral()
     gradlePluginPortal()
@@ -56,11 +56,7 @@ configure(subprojects) {
 
 subprojects {
   version = "$projectVersion"
-<<<<<<< HEAD
-  ext.appName = 'RPG_GAME'
-=======
   ext.appName = 'RPGGame_OOP'
->>>>>>> c387f1c677df44dcef2aef71beccb39eba7bad73
   repositories {
     mavenCentral()
 //    maven { url 'https://s01.oss.sonatype.org' }
@@ -73,8 +69,4 @@ subprojects {
   }
 }
 
-<<<<<<< HEAD
-eclipse.project.name = 'RPG_GAME' + '-parent'
-=======
 eclipse.project.name = 'RPGGame_OOP' + '-parent'
->>>>>>> c387f1c677df44dcef2aef71beccb39eba7bad73
