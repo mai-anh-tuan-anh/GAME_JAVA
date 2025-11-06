@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Water+.tsx",
+    "activeFile": "MAP.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -74,7 +74,7 @@
                 2
             ],
             "scale": 0.125,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
                 "x": 588,
                 "y": 908
@@ -152,16 +152,16 @@
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
-        "MAP.tmx",
-        "Objects.tsx",
-        "Floors_Tiles.tsx",
-        "Núi đá và cỏ xanh.tsx",
-        "Floors_Tiles_Fixed.tsx",
-        "house.tsx",
-        "Tilemap_color3-removebg-preview.tsx",
-        "titleset.tsx",
-        "Wall_Tiles.tsx",
         "Water+.tsx",
+        "Wall_Tiles.tsx",
+        "titleset.tsx",
+        "Tilemap_color3-removebg-preview.tsx",
+        "house.tsx",
+        "Floors_Tiles_Fixed.tsx",
+        "Núi đá và cỏ xanh.tsx",
+        "Floors_Tiles.tsx",
+        "Objects.tsx",
+        "MAP.tmx",
         "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx",
         "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx"
     ],
