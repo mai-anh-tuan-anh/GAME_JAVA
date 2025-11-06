@@ -3,55 +3,175 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "untitled.tmx",
+    "activeFile": "Water+.tsx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
-        "Floors_Tiles.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
-        },
-        "Floors_Tiles_Fixed.tsx": {
-            "scaleInDock": 1.5,
-            "scaleInEditor": 1
-        },
-        "Wall_Tiles.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
-        },
-        "untitled.tmx": {
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 115.25,
-                "y": 179.25
+                "x": -95.25,
+                "y": 37.5
+            }
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#Doors_windows_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#Smoke_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#Trees_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#bird_fly_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#bird_jump_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#cat_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#exterior": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#ground_grass_details": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx#house_details": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx": {
+            "scale": 1.0056640625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -127.7762672363566,
+                "y": 0
+            }
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx#Doors_windows_animation": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx#Interior": {
+            "scaleInDock": 1
+        },
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx#walls_floor": {
+            "scaleInDock": 1
+        },
+        "Floors_Tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
+        },
+        "Floors_Tiles_Fixed.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
+        },
+        "MAP.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 588,
+                "y": 908
+            }
+        },
+        "Núi đá và cỏ xanh.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "Objects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "Tilemap_color3-removebg-preview.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "Wall_Tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "Water+.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "house.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "main.tmx": {
+            "scale": 1.02125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 239.90208078335374,
+                "y": 21.052631578947356
+            }
+        },
+        "titleset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "untitled.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.49999999999999,
+                "y": 206.16666666666669
             }
         }
     },
-    "last.imagePath": "C:/Users/Admin/OOP_RPGGame/Raw Asset/Pixel Crawler - Free Pack/Environment/Tilesets",
+    "last.externalTilesetPath": "D:/GAME_JAVA/assets/maps",
+    "last.imagePath": "D:/GAME_JAVA/Raw Asset",
     "map.fixedSize": false,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": "3",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
     "openFiles": [
-        "untitled.tmx",
+        "MAP.tmx",
+        "Objects.tsx",
+        "Floors_Tiles.tsx",
+        "Núi đá và cỏ xanh.tsx",
         "Floors_Tiles_Fixed.tsx",
-        "Wall_Tiles.tsx"
+        "house.tsx",
+        "Tilemap_color3-removebg-preview.tsx",
+        "titleset.tsx",
+        "Wall_Tiles.tsx",
+        "Water+.tsx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
-        "Wall_Tiles.tsx",
+        "MAP.tmx",
+        "Objects.tsx",
+        "Floors_Tiles.tsx",
+        "Núi đá và cỏ xanh.tsx",
         "Floors_Tiles_Fixed.tsx",
-        "untitled.tmx",
-        "Floors_Tiles.tsx"
+        "house.tsx",
+        "Tilemap_color3-removebg-preview.tsx",
+        "titleset.tsx",
+        "Wall_Tiles.tsx",
+        "Water+.tsx",
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx",
+        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx"
     ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
-    "tileset.margin": 8,
-    "tileset.spacing": 16,
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
     "tileset.tileSize": {
         "height": 16,
         "width": 16
-    }
+    },
+    "tileset.type": 0
 }
