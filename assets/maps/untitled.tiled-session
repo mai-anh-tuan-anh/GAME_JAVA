@@ -3,20 +3,23 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx",
+    "activeFile": "Rocks.tsx",
     "expandedProjectPaths": [
         "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Bonfire_02-Sheet.tsx": {
-            "dynamicWrapping": false
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
         },
         "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior GÇö -▌-+-+-+-Å.tmx": {
             "scale": 1,
-            "selectedLayer": 0,
+            "selectedLayer": 23,
             "viewCenter": {
-                "x": -128.5,
-                "y": -270
+                "x": 147,
+                "y": -271
             }
         },
         "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior GÇö -▌-+-+-+-Å.tmx#Doors_windows_animation": {
@@ -65,7 +68,7 @@
             "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 139.33333333333331,
+                "x": 503.99999999999994,
                 "y": 2.6666666666666856
             }
         },
@@ -102,8 +105,8 @@
             "scale": 1.0056640625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -50.21557583996895,
-                "y": -35.79724218294814
+                "x": 146.17207224703822,
+                "y": 71.5944843658963
             }
         },
         "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx#Doors_windows_animation": {
@@ -118,16 +121,25 @@
         "D:/GAME_JAVA/Raw Asset/Tiled_files/exterior.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInEditor": 0.75
+        },
+        "Dungeon_Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
         },
         "Dungeon_Tiles.tsx": {
             "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1.5
+        },
+        "Farm.tsx": {
             "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInEditor": 0.75
         },
         "Floors_Tiles.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 1,
             "scaleInEditor": 0.75
         },
         "Floors_Tiles_Fixed.tsx": {
@@ -135,14 +147,11 @@
             "scaleInEditor": 0.75
         },
         "MAP.tmx": {
-            "expandedObjectLayers": [
-                2
-            ],
-            "scale": 0.75,
-            "selectedLayer": 2,
+            "scale": 0.125,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": -404.66666666666663,
-                "y": -205.33333333333331
+                "x": 284,
+                "y": -608
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -152,11 +161,23 @@
         },
         "Objects.tsx": {
             "dynamicWrapping": true,
-            "scaleInDock": 1,
+            "scaleInDock": 0.5,
             "scaleInEditor": 0.75
         },
         "Rocks.tsx": {
-            "dynamicWrapping": false
+            "dynamicWrapping": false,
+            "scaleInDock": 4,
+            "scaleInEditor": 0.75
+        },
+        "Shadows.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "Size_03.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
         },
         "Tilemap_color3-removebg-preview.tsx": {
             "dynamicWrapping": false,
@@ -167,14 +188,23 @@
             "scaleInDock": 1,
             "scaleInEditor": 0.75
         },
-        "Wall_Crawl_Tiles.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
-        },
-        "Wall_Tiles.tsx": {
+        "Vegetation.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 0.75
+        },
+        "Wall_Crawl_Tiles.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
+        },
+        "Wall_Tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 0.75
+        },
+        "Wall_Variations.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Water+.tsx": {
             "dynamicWrapping": false,
@@ -183,12 +213,12 @@
         },
         "Water_tiles.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
         },
         "house.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1,
+            "scaleInDock": 1.5,
             "scaleInEditor": 0.75
         },
         "main.tmx": {
@@ -208,14 +238,14 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 127.49999999999999,
-                "y": 206.16666666666669
+                "x": 219.33333333333331,
+                "y": 206.33333333333331
             }
         }
     },
     "frame.defaultDuration": 200,
     "last.externalTilesetPath": "D:/GAME_JAVA/assets/maps",
-    "last.imagePath": "D:/GAME_JAVA/Raw Asset/Pixel Crawler - Free Pack/Environment/Structures/Stations/Bonfire",
+    "last.imagePath": "D:/GAME_JAVA/Raw Asset/Pixel Crawler - Free Pack/Environment/Props/Static",
     "map.fixedSize": false,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": "3",
@@ -223,38 +253,33 @@
     "map.tileWidth": 16,
     "openFiles": [
         "MAP.tmx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior.tmx",
         "Objects.tsx",
+        "Dungeon_Tiles.tsx",
+        "Farm.tsx",
+        "Size_03.tsx",
+        "Rocks.tsx",
+        "Bonfire_02-Sheet.tsx",
         "Floors_Tiles.tsx",
-        "Núi đá và cỏ xanh.tsx",
         "Floors_Tiles_Fixed.tsx",
         "house.tsx",
-        "Tilemap_color3-removebg-preview.tsx",
-        "titleset.tsx",
-        "Wall_Tiles.tsx",
-        "Water+.tsx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx",
-        "Trees_animation.tsx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior GÇö -▌-+-+-+-Å.tmx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/exterior.tsx",
-        "Water_tiles.tsx",
-        "Wall_Crawl_Tiles.tsx",
-        "Dungeon_Tiles.tsx"
+        "Vegetation.tsx",
+        "Shadows.tsx",
+        "Dungeon_Props.tsx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
         "MAP.tmx",
+        "Objects.tsx",
         "Dungeon_Tiles.tsx",
-        "Wall_Crawl_Tiles.tsx",
-        "Water_tiles.tsx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/exterior.tsx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/Exterior GÇö -▌-+-+-+-Å.tmx",
-        "Trees_animation.tsx",
-        "D:/GAME_JAVA/Raw Asset/Tiled_files/Interior1.tmx",
-        "Water+.tsx",
-        "Wall_Tiles.tsx",
-        "titleset.tsx",
-        "Tilemap_color3-removebg-preview.tsx"
+        "Farm.tsx",
+        "Size_03.tsx",
+        "Dungeon_Props.tsx",
+        "Shadows.tsx",
+        "Vegetation.tsx",
+        "house.tsx",
+        "Floors_Tiles_Fixed.tsx",
+        "Floors_Tiles.tsx",
+        "Bonfire_02-Sheet.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
