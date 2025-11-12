@@ -15,6 +15,8 @@ import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import oop.duong.rpggame.asset.AssetService;
+import oop.duong.rpggame.screen.GameScreen;
+import oop.duong.rpggame.screen.LoadingScreen;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -46,7 +48,7 @@ public class RPGGame extends Game {
         this.glProfiler.enable();
         this.fpsLogger = new FPSLogger();
 
-        addScreen(new GameScreen(this));
+        addScreen(new LoadingScreen(this ));
         setScreen(GameScreen.class);
 
     }
@@ -59,6 +61,10 @@ public class RPGGame extends Game {
 
     public void addScreen(Screen screen) {
         screenCache.put(screen.getClass(), screen);
+    }
+
+    public void removeScreen(Screen screen) {
+        screenCache.remove(screen.getClass());
     }
 
     public void setScreen(Class<? extends Screen> screenClass) {
@@ -80,6 +86,7 @@ public class RPGGame extends Game {
         Gdx.graphics.setTitle("RPG Game - Draw Calls: " + glProfiler.getDrawCalls());
         fpsLogger.log();
     }
+
 
 
     @Override
@@ -105,6 +112,7 @@ public class RPGGame extends Game {
     public OrthographicCamera getCamera() {
         return camera;
     }
+
 
 }
 

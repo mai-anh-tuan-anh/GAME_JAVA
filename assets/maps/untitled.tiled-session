@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Dungeon_Tiles.tsx",
+    "activeFile": "MAP.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -168,11 +168,11 @@
             "scaleInEditor": 0.12
         },
         "MAP.tmx": {
-            "scale": 0.0625,
+            "scale": 0.33,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1776,
-                "y": -1992
+                "x": 2190.909090909091,
+                "y": 1392.4242424242425
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -316,8 +316,6 @@
     "project": "untitled.tiled-project",
     "property.type": "float",
     "recentFiles": [
-        "MAP.tmx",
-        "Objects.tsx",
         "Interior.tsx",
         "Bonfire_01-Sheet.tsx",
         "Wood.tsx",
@@ -327,7 +325,9 @@
         "Walls.tsx",
         "Wall_Crawl_Tiles.tsx",
         "Wall_Tiles.tsx",
-        "Props.tsx"
+        "Props.tsx",
+        "Dungeon_Props.tsx",
+        "Shadows.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",

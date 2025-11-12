@@ -1,27 +1,21 @@
-package oop.duong.rpggame;
+package oop.duong.rpggame.screen;
 
 import com.badlogic.ashley.core.Engine;
 import com.badlogic.ashley.core.EntitySystem;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.ScreenAdapter;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.utils.Disposable;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import oop.duong.rpggame.RPGGame;
 import oop.duong.rpggame.asset.AssetService;
 import oop.duong.rpggame.asset.MapAsset;
-import system.RenderSystem;
-import tiled.TiledAshleyConfigurator;
-import tiled.TiledService;
+import oop.duong.rpggame.system.RenderSystem;
+import oop.duong.rpggame.tiled.TiledAshleyConfigurator;
+import oop.duong.rpggame.tiled.TiledService;
 
 import java.util.function.Consumer;
-
-import static oop.duong.rpggame.RPGGame.UNIT_SCALE;
-
 
 
 /** First screen of the application. Displayed after the application is created. */
