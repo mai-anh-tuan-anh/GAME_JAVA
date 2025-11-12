@@ -1,4 +1,4 @@
-package tiled;
+package oop.duong.rpggame.tiled;
 
 import com.badlogic.gdx.maps.MapLayer;
 import com.badlogic.gdx.maps.MapObject;

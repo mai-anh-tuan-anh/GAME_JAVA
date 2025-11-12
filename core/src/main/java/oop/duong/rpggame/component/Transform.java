@@ -1,4 +1,4 @@
-package component;
+package oop.duong.rpggame.component;
 
 import com.badlogic.ashley.core.Component;
 import com.badlogic.ashley.core.ComponentMapper;

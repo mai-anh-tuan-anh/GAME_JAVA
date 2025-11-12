@@ -1,10 +1,8 @@
-package component;
+package oop.duong.rpggame.component;
 
 import com.badlogic.ashley.core.Component;
 import com.badlogic.ashley.core.ComponentMapper;
-import com.badlogic.gdx.Graphics;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class Graphic implements Component {
