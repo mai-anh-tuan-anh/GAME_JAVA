@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="Objects" tilewidth="153" tileheight="255" tilecount="42" columns="0">
+<tileset version="1.10" tiledversion="1.11.2" name="Objects" tilewidth="153" tileheight="255" tilecount="45" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="7" type="Houses">
   <properties>
@@ -278,5 +278,14 @@
  </tile>
  <tile id="49">
   <image source="objects/cooker.png" width="46" height="26"/>
+ </tile>
+ <tile id="50">
+  <image source="objects/meat.png" width="23" height="14"/>
+ </tile>
+ <tile id="51">
+  <image source="objects/furnace.png" width="31" height="40"/>
+ </tile>
+ <tile id="52">
+  <image source="objects/grill.png" width="60" height="44"/>
  </tile>
 </tileset>
