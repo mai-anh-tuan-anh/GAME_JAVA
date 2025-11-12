@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Walls.tsx",
+    "activeFile": "Dungeon_Tiles.tsx",
     "expandedProjectPaths": [
         "."
     ],
@@ -11,7 +11,7 @@
     "fileStates": {
         "Bonfire_01-Sheet.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1,
+            "scaleInDock": 3,
             "scaleInEditor": 0.12
         },
         "Bonfire_02-Sheet.tsx": {
@@ -135,7 +135,7 @@
         },
         "Dungeon_Tiles.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 2,
             "scaleInEditor": 0.12
         },
         "Esoteric.tsx": {
@@ -150,7 +150,7 @@
         },
         "Floors_Tiles.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1,
+            "scaleInDock": 4,
             "scaleInEditor": 0.12
         },
         "Floors_Tiles_Fixed.tsx": {
@@ -168,11 +168,11 @@
             "scaleInEditor": 0.12
         },
         "MAP.tmx": {
-            "scale": 0.125,
-            "selectedLayer": 5,
+            "scale": 0.0625,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1484,
-                "y": 588
+                "x": 1776,
+                "y": -1992
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -182,7 +182,7 @@
         },
         "Objects.tsx": {
             "dynamicWrapping": true,
-            "scaleInDock": 0.5,
+            "scaleInDock": 0.33,
             "scaleInEditor": 0.12
         },
         "Props.tsx": {
@@ -236,7 +236,7 @@
         "Walls.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 0.75
+            "scaleInEditor": 0.12
         },
         "Water+.tsx": {
             "dynamicWrapping": false,
@@ -282,7 +282,7 @@
     },
     "frame.defaultDuration": 200,
     "last.externalTilesetPath": "D:/GAME_JAVA/assets/maps",
-    "last.imagePath": "D:/GAME_JAVA/assets/maps/objects",
+    "last.imagePath": "D:/GAME_JAVA/Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately",
     "map.fixedSize": false,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": "3",
@@ -318,16 +318,16 @@
     "recentFiles": [
         "MAP.tmx",
         "Objects.tsx",
-        "Dungeon_Tiles.tsx",
-        "Farm.tsx",
-        "Size_03.tsx",
-        "Rocks.tsx",
-        "Bonfire_02-Sheet.tsx",
-        "Floors_Tiles.tsx",
-        "Floors_Tiles_Fixed.tsx",
-        "house.tsx",
-        "Vegetation.tsx",
-        "Shadows.tsx"
+        "Interior.tsx",
+        "Bonfire_01-Sheet.tsx",
+        "Wood.tsx",
+        "Water_tiles.tsx",
+        "Esoteric.tsx",
+        "Furniture.tsx",
+        "Walls.tsx",
+        "Wall_Crawl_Tiles.tsx",
+        "Wall_Tiles.tsx",
+        "Props.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
