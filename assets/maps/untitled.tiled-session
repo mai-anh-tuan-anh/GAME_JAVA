@@ -171,8 +171,10 @@
             "scale": 0.33,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 2190.909090909091,
-                "y": 1392.4242424242425
+
+                "x": 1776,
+                "y": 304
+>>>>>>> Stashed changes
             }
         },
         "Núi đá và cỏ xanh.tsx": {
