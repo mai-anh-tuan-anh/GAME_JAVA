@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="Objects" tilewidth="153" tileheight="255" tilecount="45" columns="0">
+<tileset version="1.10" tiledversion="1.11.2" name="Objects" tilewidth="256" tileheight="256" tilecount="79" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="7" type="Houses">
   <properties>
@@ -287,5 +287,126 @@
  </tile>
  <tile id="52">
   <image source="objects/grill.png" width="60" height="44"/>
+ </tile>
+ <tile id="53">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_9.png" width="64" height="64"/>
+ </tile>
+ <tile id="54">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow2_8.png" width="64" height="64"/>
+ </tile>
+ <tile id="55">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_3.png" width="32" height="32"/>
+ </tile>
+ <tile id="56">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_1.png" width="32" height="32"/>
+ </tile>
+ <tile id="57">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_6.png" width="64" height="64"/>
+ </tile>
+ <tile id="58">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Lich_shadow1.png" width="256" height="256"/>
+ </tile>
+ <tile id="59">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_00.png" width="48" height="80"/>
+  <animation>
+   <frame tileid="59" duration="200"/>
+   <frame tileid="60" duration="200"/>
+   <frame tileid="61" duration="200"/>
+   <frame tileid="62" duration="200"/>
+   <frame tileid="64" duration="200"/>
+   <frame tileid="65" duration="200"/>
+   <frame tileid="66" duration="200"/>
+   <frame tileid="67" duration="200"/>
+   <frame tileid="68" duration="200"/>
+   <frame tileid="69" duration="200"/>
+   <frame tileid="70" duration="200"/>
+   <frame tileid="71" duration="200"/>
+   <frame tileid="72" duration="200"/>
+   <frame tileid="73" duration="200"/>
+   <frame tileid="74" duration="200"/>
+   <frame tileid="75" duration="200"/>
+   <frame tileid="76" duration="200"/>
+  </animation>
+ </tile>
+ <tile id="60">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_01.png" width="48" height="80"/>
+ </tile>
+ <tile id="61">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_02.png" width="48" height="80"/>
+ </tile>
+ <tile id="62">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_03.png" width="48" height="80"/>
+ </tile>
+ <tile id="63">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_04.png" width="48" height="80"/>
+ </tile>
+ <tile id="64">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_05.png" width="48" height="80"/>
+ </tile>
+ <tile id="65">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_06.png" width="48" height="80"/>
+ </tile>
+ <tile id="66">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_07.png" width="48" height="80"/>
+ </tile>
+ <tile id="67">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_08.png" width="48" height="80"/>
+ </tile>
+ <tile id="68">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_09.png" width="48" height="80"/>
+ </tile>
+ <tile id="69">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_10.png" width="48" height="80"/>
+ </tile>
+ <tile id="70">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_11.png" width="48" height="80"/>
+ </tile>
+ <tile id="71">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_12.png" width="48" height="80"/>
+ </tile>
+ <tile id="72">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_13.png" width="48" height="80"/>
+ </tile>
+ <tile id="73">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_14.png" width="48" height="80"/>
+ </tile>
+ <tile id="74">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_15.png" width="48" height="80"/>
+ </tile>
+ <tile id="75">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_16.png" width="48" height="80"/>
+ </tile>
+ <tile id="76">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/Tiled_files/Tile_17.png" width="48" height="80"/>
+ </tile>
+ <tile id="77">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Grave_shadow1_4.png" width="32" height="32"/>
+ </tile>
+ <tile id="78">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Grave_shadow3_13.png" width="32" height="32"/>
+ </tile>
+ <tile id="79">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Grave_shadow2_5.png" width="32" height="32"/>
+ </tile>
+ <tile id="80">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Grave_shadow1_17.png" width="32" height="32"/>
+ </tile>
+ <tile id="81">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_2.png" width="16" height="16"/>
+ </tile>
+ <tile id="82">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_4.png" width="32" height="32"/>
+ </tile>
+ <tile id="83">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_5.png" width="32" height="32"/>
+ </tile>
+ <tile id="84">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_7.png" width="64" height="64"/>
+ </tile>
+ <tile id="85">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow1_15.png" width="32" height="32"/>
+ </tile>
+ <tile id="86">
+  <image source="../../Raw Asset/Pixel Crawler - Free Pack/PNG/Objects_separately/Bones_shadow3_12.png" width="64" height="64"/>
  </tile>
 </tileset>
