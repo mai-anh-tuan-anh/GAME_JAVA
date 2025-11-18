@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="titleset" tilewidth="16" tileheight="16" spacing="2" margin="2" tilecount="672" columns="32">
- <image source="../../../Tilemap_color3-removebg-preview.png" width="576" height="384"/>
+ <image source="Tilemap_color3-removebg-preview.png" width="576" height="384"/>
  <tile id="298">
   <animation>
    <frame tileid="33" duration="100"/>

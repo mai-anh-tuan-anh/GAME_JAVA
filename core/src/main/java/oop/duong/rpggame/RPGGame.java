@@ -1,5 +1,8 @@
 package oop.duong.rpggame;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.Application; // Thêm cái này để dùng Application.LOG_DEBUG
 import com.badlogic.gdx.*;
 import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
 import com.badlogic.gdx.graphics.FPSLogger;
@@ -35,6 +38,31 @@ public class RPGGame extends Game {
 
     @Override
     public void create() {
+        // --- BẮT ĐẦU CODE DÒ LỖI ---
+        System.out.println("--------------------------------------------------");
+        System.out.println("[1] TÔI ĐANG ĐỨNG TẠI: " + com.badlogic.gdx.Gdx.files.getLocalStoragePath());
+
+        System.out.println("[2] KIỂM TRA THƯ MỤC 'maps':");
+        com.badlogic.gdx.files.FileHandle mapsFolder = com.badlogic.gdx.Gdx.files.internal("maps");
+
+        if (mapsFolder.exists()) {
+            System.out.println("    -> Tìm thấy thư mục 'maps'! Bên trong có:");
+            for (com.badlogic.gdx.files.FileHandle file : mapsFolder.list()) {
+                System.out.println("       - " + file.name());
+            }
+        } else {
+            System.out.println("    -> ❌ KHÔNG TÌM THẤY thư mục 'maps' (Kiểm tra lại Working Directory!)");
+        }
+
+        System.out.println("[3] KIỂM TRA FILE CỤ THỂ 'maps/MAP.tmx':");
+        boolean exists = com.badlogic.gdx.Gdx.files.internal("maps/MAP.tmx").exists();
+        System.out.println("    -> Kết quả: " + (exists ? "✅ TÌM THẤY!" : "❌ KHÔNG THẤY (Mù tịt)"));
+        System.out.println("--------------------------------------------------");
+        // --- KẾT THÚC CODE DÒ LỖI ---
+
+        // ... Các code cũ của bạn (setLogLevel, batch...) để nguyên ở dưới ...
+        Gdx.app.setLogLevel(Application.LOG_DEBUG);
+        // ...
         Gdx.app.setLogLevel(Application.LOG_DEBUG);
         inputMultiplexer = new InputMultiplexer();
         Gdx.input.setInputProcessor(inputMultiplexer);

@@ -67,6 +67,7 @@ public class GameScreen extends ScreenAdapter {
 
     @Override
     public void render(float delta) {
+
         delta = Math.min(delta,1 / 30f);
         this.engine.update(delta);
         if(Gdx.input.isKeyJustPressed(Input.Keys.W)) {

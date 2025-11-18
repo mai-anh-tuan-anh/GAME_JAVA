@@ -7488,7 +7488,7 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="6678" source="../../assets/maps/Floors_Tiles.tsx"/>
+ <tileset firstgid="6678" source="Floors_Tiles.tsx"/>
  <layer id="31" name="Ground" width="16" height="24">
   <data encoding="csv">
    <chunk x="0" y="-16" width="16" height="16">
