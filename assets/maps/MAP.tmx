@@ -2,7 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="1" nextlayerid="11" nextobjectid="1870">
  <tileset firstgid="1" source="Floors_Tiles.tsx"/>
  <tileset firstgid="651" source="Objects.tsx"/>
- <tileset firstgid="738" source="Núi đá và cỏ xanh.tsx"/>
+ <tileset firstgid="738" source="rock_and_green_grass.tsx"/>
  <tileset firstgid="1270" source="house.tsx"/>
  <tileset firstgid="2239" source="Water+.tsx"/>
  <tileset firstgid="2407" source="Trees_animation.tsx"/>

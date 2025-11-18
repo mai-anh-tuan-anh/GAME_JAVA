@@ -11,7 +11,9 @@ import com.badlogic.gdx.maps.tiled.TiledMapTile;
 import com.badlogic.gdx.maps.tiled.objects.TiledMapTileMapObject;
 import com.badlogic.gdx.math.Vector2;
 import oop.duong.rpggame.asset.AtlasAsset;
+import oop.duong.rpggame.component.Controller;
 import oop.duong.rpggame.component.Graphic;
+import oop.duong.rpggame.component.Move;
 import oop.duong.rpggame.component.Transform;
 import oop.duong.rpggame.RPGGame;
 import oop.duong.rpggame.asset.AssetService;
@@ -39,9 +41,23 @@ public class TiledAshleyConfigurator {
             tileMapObject.getScaleX(), tileMapObject.getScaleY(),
             sortOffsetY,
             entity);
+        addEntityController(tileMapObject, entity);
+        addEntityMove(tile,entity);
 
 
         this.engine.addEntity(entity);
+    }
+
+    private void addEntityMove(TiledMapTile tile, Entity entity) {
+        float speed = tile.getProperties().get("speed", 0f, Float.class);
+        if (speed == 0f) {return;}
+        entity.add(new Move(speed));
+    }
+
+    private void addEntityController(TiledMapTileMapObject tileMapObject, Entity entity) {
+        boolean controller = tileMapObject.getProperties().get("controller", false, Boolean.class);
+        if(!controller) {return;}
+        entity.add(new Controller());
     }
 
     private static void addEntityTransform(
