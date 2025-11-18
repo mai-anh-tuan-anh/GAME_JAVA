@@ -223,7 +223,7 @@
   <image source="objects/knight.png" width="18" height="29"/>
  </tile>
  <tile id="36">
-  <image source="../../Raw Asset/objects/fire/Tile_00.png" width="32" height="48"/>
+  <image source="objects/fire.png" width="32" height="48"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="12" y="18" width="9" height="15"/>
   </objectgroup>
@@ -235,16 +235,16 @@
   </animation>
  </tile>
  <tile id="37">
-  <image source="../../Raw Asset/objects/fire/Tile_01.png" width="32" height="48"/>
+  <image source="objects/fire.png" width="32" height="48"/>
  </tile>
  <tile id="38">
-  <image source="../../Raw Asset/objects/fire/Tile_02.png" width="32" height="48"/>
+  <image source="objects/fire.png" width="32" height="48"/>
  </tile>
  <tile id="39">
-  <image source="../../Raw Asset/objects/fire/Tile_03.png" width="32" height="48"/>
+  <image source="objects/fire.png" width="32" height="48"/>
  </tile>
  <tile id="40">
-  <image source="../../Raw Asset/objects/smoke/smoke.png" width="32" height="48"/>
+  <image source="objects/smoke.png" width="32" height="48"/>
   <animation>
    <frame tileid="40" duration="200"/>
    <frame tileid="41" duration="200"/>
@@ -253,13 +253,13 @@
   </animation>
  </tile>
  <tile id="41">
-  <image source="../../Raw Asset/objects/smoke/Tile_01.png" width="32" height="48"/>
+  <image source="objects/smoke.png" width="32" height="48"/>
  </tile>
  <tile id="42">
-  <image source="../../Raw Asset/objects/smoke/Tile_02.png" width="32" height="48"/>
+  <image source="objects/smoke.png" width="32" height="48"/>
  </tile>
  <tile id="43">
-  <image source="../../Raw Asset/objects/smoke/Tile_03.png" width="32" height="48"/>
+  <image source="objects/smoke.png" width="32" height="48"/>
  </tile>
  <tile id="44">
   <image source="objects/sawmill.png" width="32" height="32"/>
