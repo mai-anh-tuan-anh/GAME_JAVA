@@ -37,11 +37,11 @@ public class LoadingScreen extends ScreenAdapter {
             createScreens();
             this.game.removeScreen(this);
             this.dispose();
-            this.game.setScreen(MenuScreen.class);
+
         }
     }
 
     private void createScreens() {
         this.game.addScreen(new GameScreen(this.game));
-        this.game.addScreen(new MenuScreen(this.game));
     }
+}

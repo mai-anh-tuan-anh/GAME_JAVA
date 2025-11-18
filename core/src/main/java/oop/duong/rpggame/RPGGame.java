@@ -48,7 +48,8 @@ public class RPGGame extends Game {
         this.glProfiler.enable();
         this.fpsLogger = new FPSLogger();
 
-        addScreen(new LoadingScreen(this ));
+        addScreen(new GameScreen(this)); // <-- Thêm dòng này
+
         setScreen(GameScreen.class);
 
     }
