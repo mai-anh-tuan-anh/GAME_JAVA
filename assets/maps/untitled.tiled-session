@@ -1,11 +1,12 @@
 {
-    "activeFile": "Wall_Crawl_Tiles.tsx",
+    "activeFile": "MAP.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Bonfire_01-Sheet.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Bonfire_02-Sheet.tsx": {
             "scaleInDock": 1
@@ -14,32 +15,42 @@
             "scaleInDock": 1
         },
         "Dungeon_Props.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Dungeon_Tiles.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Esoteric.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Farm.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Floors_Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Floors_Tiles_Fixed.tsx": {
             "scaleInDock": 1
         },
         "Furniture.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Interior.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "MAP.tmx": {
-            "scale": 0.75,
-            "selectedLayer": 0,
+            "scale": 0.5,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 1634.6666666666665,
-                "y": 870.6666666666666
+                "x": 2270,
+                "y": 1180
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -51,19 +62,23 @@
             "scaleInEditor": 1
         },
         "Props.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Rocks.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Size_03.tsx": {
             "scaleInDock": 1
         },
         "Trees_animation.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Vegetation.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Wall_Crawl_Tiles.tsx": {
             "scaleInDock": 1,
@@ -75,35 +90,83 @@
             "scaleInEditor": 1
         },
         "Wall_Variations.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Walls.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Water+.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Water_tiles.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Wood.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "exterior.tsx": {
             "scaleInDock": 1
         },
         "house.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "main.tmx": {
+            "scale": 0.89,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.44943820224722,
+                "y": 158.98876404494382
+            }
+        },
+        "rock_and_green_grass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "titleset.tsx": {
             "scaleInDock": 1
+        },
+        "untitled.tmx": {
+            "scale": 0.83,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -208.43373493975906,
+                "y": 84.93975903614458
+            }
         }
     },
+    "last.externalTilesetPath": "D:/GAME_JAVA/assets/maps",
+    "last.imagePath": "D:/GAME_JAVA/assets/maps",
     "openFiles": [
         "MAP.tmx",
-        "Objects.tsx",
-        "Wall_Tiles.tsx",
-        "Wall_Crawl_Tiles.tsx"
+        "Interior.tsx"
     ],
     "project": "",
     "recentFiles": [
+        "Interior.tsx",
         "MAP.tmx",
-        "Objects.tsx",
-        "Wall_Tiles.tsx",
+        "Walls.tsx",
+        "Esoteric.tsx",
+        "Furniture.tsx",
+        "Dungeon_Props.tsx",
+        "Vegetation.tsx",
+        "Farm.tsx",
+        "Rocks.tsx",
+        "Props.tsx",
+        "Bonfire_01-Sheet.tsx",
         "Wall_Crawl_Tiles.tsx"
-    ]
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
 }

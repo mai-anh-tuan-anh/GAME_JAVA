@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="Rocks" tilewidth="16" tileheight="16" tilecount="247" columns="13">
- <image source="../../Raw Asset/Pixel Crawler - Free Pack/Environment/Props/Static/Rocks.png" width="208" height="304"/>
+ <image source="Rocks.png" width="208" height="304"/>
  <tile id="19">
   <objectgroup draworder="index" id="2">
    <object id="1" x="7" y="3" width="9" height="13"/>

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="Wood" tilewidth="16" tileheight="16" tilecount="84" columns="12">
- <image source="../../Raw Asset/Pixel Crawler - Free Pack/Weapons/Wood/Wood.png" width="192" height="112"/>
+ <image source="Wood.png" width="192" height="112"/>
 </tileset>

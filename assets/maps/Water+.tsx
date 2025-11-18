@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="Water+" tilewidth="16" tileheight="16" tilecount="168" columns="12">
- <image source="../../Raw Asset/Water+.png" width="192" height="224"/>
+ <image source="Water+.png" width="192" height="224"/>
  <tile id="0" type="Water"/>
  <tile id="1" type="Water"/>
  <tile id="2" type="Water"/>

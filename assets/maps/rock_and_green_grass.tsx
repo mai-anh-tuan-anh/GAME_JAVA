@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="Núi đá và cỏ xanh" tilewidth="16" tileheight="16" spacing="4" margin="2" tilecount="532" columns="28">
- <image source="../../tilemap_rm_BG/Tilemap_color5-removebg-preview.png" width="576" height="384"/>
+ <image source="Tilemap_color5-removebg-preview.png" width="576" height="384"/>
  <tile id="268" type="valley">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0" width="16" height="16"/>
