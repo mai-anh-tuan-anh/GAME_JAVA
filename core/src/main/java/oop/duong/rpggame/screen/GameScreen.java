@@ -15,9 +15,7 @@ import oop.duong.rpggame.asset.AssetService;
 import oop.duong.rpggame.asset.MapAsset;
 import oop.duong.rpggame.input.GameControllerState;
 import oop.duong.rpggame.input.KeyboardController;
-import oop.duong.rpggame.system.ControllerSystem;
-import oop.duong.rpggame.system.MoveSystem;
-import oop.duong.rpggame.system.RenderSystem;
+import oop.duong.rpggame.system.*;
 import oop.duong.rpggame.tiled.TiledAshleyConfigurator;
 import oop.duong.rpggame.tiled.TiledService;
 
@@ -42,6 +40,9 @@ public class GameScreen extends ScreenAdapter {
 
         this.engine.addSystem(new ControllerSystem());
         this.engine.addSystem(new MoveSystem());
+        this.engine.addSystem(new FsmSystem());
+        this.engine.addSystem(new FacingSystem());
+        this.engine.addSystem(new AnimationSystem(game.getAssetService()));
         this.engine.addSystem(new RenderSystem(game.getBatch(), game.getViewport(), game.getCamera()));
 
     }
@@ -70,6 +71,7 @@ public class GameScreen extends ScreenAdapter {
 
         delta = Math.min(delta,1 / 30f);
         this.engine.update(delta);
+
         if(Gdx.input.isKeyJustPressed(Input.Keys.W)) {
             System.out.println("W was just pressed");
         }

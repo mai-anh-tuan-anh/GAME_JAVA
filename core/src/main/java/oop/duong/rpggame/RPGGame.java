@@ -15,6 +15,7 @@ import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import oop.duong.rpggame.asset.AssetService;
+import oop.duong.rpggame.asset.AtlasAsset;
 import oop.duong.rpggame.screen.GameScreen;
 
 import java.util.HashMap;
@@ -71,6 +72,13 @@ public class RPGGame extends Game {
         this.camera = new OrthographicCamera();
         this.viewport = new FitViewport(WORLD_WIDTH, WORLD_HEIGHT, camera);
         this.assetService = new AssetService(new InternalFileHandleResolver());
+
+        assetService.load(AtlasAsset.OBJECTS);
+
+        // QUAN TRỌNG: Bắt buộc game phải đứng đợi ở đây cho đến khi load xong 100%
+        // Nếu không có dòng này, game chạy tiếp xuống dưới khi file chưa kịp đọc -> Crash
+        assetService.finishLoading();
+
         this.glProfiler = new GLProfiler(Gdx.graphics);
         this.glProfiler.enable();
         this.fpsLogger = new FPSLogger();

@@ -44,6 +44,10 @@ public class AssetService implements Disposable {
         Gdx.app.debug("AssetService", this.assetManager.getDiagnostics());
     }
 
+    public void finishLoading() {
+        this.assetManager.finishLoading();
+    }
+
     @Override
     public void dispose() {
         this.assetManager.dispose();
