@@ -52,17 +52,17 @@ public class RenderSystem extends SortedIteratingSystem implements Disposable {
     @Override
     public void update(float deltaTime) {
         AnimatedTiledMapTile.updateAnimationBaseTime();
-        viewport.apply();
+        this.viewport.apply();
 
         batch.begin();
-        batch.setColor(Color.WHITE);
+        this.batch.setColor(Color.WHITE);
         this.tiledRenderer.setView(camera);
         bgdLayers.forEach(tiledRenderer::renderMapLayer);
 
         forceSort();
         super.update(deltaTime);
 
-        batch.setColor(Color.WHITE);
+        this.batch.setColor(Color.WHITE);
         fgdLayers.forEach(tiledRenderer::renderMapLayer);
         batch.end();
     }

@@ -1,0 +1,615 @@
+
+objects.png
+size: 128, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+anvil/anvil
+  rotate: false
+  xy: 2, 2
+  size: 62, 41
+  orig: 62, 41
+  offset: 0, 0
+  index: -1
+
+objects2.png
+size: 32, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+bed/bed
+  rotate: false
+  xy: 2, 2
+  size: 22, 39
+  orig: 22, 39
+  offset: 0, 0
+  index: -1
+
+objects3.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+big rock/big rock
+  rotate: false
+  xy: 2, 2
+  size: 54, 65
+  orig: 54, 65
+  offset: 0, 0
+  index: -1
+
+objects4.png
+size: 512, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+bones/bones_shadow1
+  rotate: false
+  xy: 2, 54
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 6
+bones/bones_shadow1
+  rotate: false
+  xy: 68, 54
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 7
+bones/bones_shadow1
+  rotate: false
+  xy: 2, 20
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+bones/bones_shadow1
+  rotate: false
+  xy: 382, 86
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 3
+bones/bones_shadow1
+  rotate: false
+  xy: 36, 20
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 4
+bones/bones_shadow1
+  rotate: false
+  xy: 382, 52
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 5
+bones/bones_shadow1
+  rotate: false
+  xy: 416, 86
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 15
+bones/bones_shadow1
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 2
+bones/bones_shadow3
+  rotate: false
+  xy: 134, 54
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 9
+bones/bones_shadow3
+  rotate: false
+  xy: 200, 54
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 10
+bones/bones_shadow3
+  rotate: false
+  xy: 266, 54
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 12
+bones/tile
+  rotate: false
+  xy: 332, 38
+  size: 48, 80
+  orig: 48, 80
+  offset: 0, 0
+  index: 0
+
+objects5.png
+size: 32, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+box/box
+  rotate: false
+  xy: 2, 2
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+
+objects6.png
+size: 32, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+box_of_coal/box_of_coal
+  rotate: false
+  xy: 2, 2
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+
+objects7.png
+size: 64, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+bush/bush
+  rotate: false
+  xy: 2, 2
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+
+objects8.png
+size: 128, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+butchery/butchery
+  rotate: false
+  xy: 2, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+
+objects9.png
+size: 32, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+chest/chest
+  rotate: false
+  xy: 2, 2
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+
+objects10.png
+size: 64, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+coal/Coal
+  rotate: false
+  xy: 2, 2
+  size: 46, 30
+  orig: 46, 30
+  offset: 0, 0
+  index: -1
+
+objects11.png
+size: 64, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+cooker/cooker
+  rotate: false
+  xy: 2, 2
+  size: 46, 26
+  orig: 46, 26
+  offset: 0, 0
+  index: -1
+
+objects12.png
+size: 64, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+crow_man/crow_man
+  rotate: false
+  xy: 2, 2
+  size: 53, 59
+  orig: 53, 59
+  offset: 0, 0
+  index: -1
+
+objects13.png
+size: 256, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+fire/Tile
+  rotate: false
+  xy: 2, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 0
+fire/Tile
+  rotate: false
+  xy: 36, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 1
+fire/Tile
+  rotate: false
+  xy: 70, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 2
+fire/Tile
+  rotate: false
+  xy: 104, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 3
+
+objects14.png
+size: 256, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+house/house
+  rotate: false
+  xy: 2, 2
+  size: 153, 137
+  orig: 153, 137
+  offset: 0, 0
+  index: -1
+
+objects15.png
+size: 32, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+knight/knight
+  rotate: false
+  xy: 2, 2
+  size: 18, 29
+  orig: 18, 29
+  offset: 0, 0
+  index: -1
+
+objects16.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+medium rock/medium rock
+  rotate: false
+  xy: 2, 2
+  size: 42, 61
+  orig: 42, 61
+  offset: 0, 0
+  index: -1
+
+objects17.png
+size: 32, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+mushroom1/mushroom1
+  rotate: false
+  xy: 2, 2
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+
+objects18.png
+size: 32, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+orc/orc
+  rotate: false
+  xy: 2, 2
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+
+objects19.png
+size: 512, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+player/idle_down
+  rotate: false
+  xy: 2, 34
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/idle_down
+  rotate: false
+  xy: 68, 34
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/idle_down
+  rotate: false
+  xy: 134, 34
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/idle_down
+  rotate: false
+  xy: 200, 34
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/player
+  rotate: false
+  xy: 2, 2
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+
+objects20.png
+size: 32, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+rogue/rogue
+  rotate: false
+  xy: 2, 2
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+
+objects21.png
+size: 64, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+sawmill/sawmill
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+objects22.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_03/Size
+  rotate: false
+  xy: 2, 2
+  size: 37, 76
+  orig: 37, 76
+  offset: 0, 0
+  index: 3
+
+objects23.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_04/Size
+  rotate: false
+  xy: 2, 2
+  size: 53, 102
+  orig: 53, 102
+  offset: 0, 0
+  index: 4
+
+objects24.png
+size: 128, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_04-export/Size_04-export
+  rotate: false
+  xy: 2, 2
+  size: 96, 209
+  orig: 96, 209
+  offset: 0, 0
+  index: -1
+
+objects25.png
+size: 64, 128
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_041/Size
+  rotate: false
+  xy: 2, 2
+  size: 54, 104
+  orig: 54, 104
+  offset: 0, 0
+  index: 41
+
+objects26.png
+size: 128, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_042/Size
+  rotate: false
+  xy: 2, 2
+  size: 73, 127
+  orig: 73, 127
+  offset: 0, 0
+  index: 42
+
+objects27.png
+size: 128, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_05/Size
+  rotate: false
+  xy: 2, 2
+  size: 91, 157
+  orig: 91, 157
+  offset: 0, 0
+  index: 5
+
+objects28.png
+size: 128, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_051/Size
+  rotate: false
+  xy: 2, 2
+  size: 89, 156
+  orig: 89, 156
+  offset: 0, 0
+  index: 51
+
+objects29.png
+size: 256, 512
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+size_052/Size
+  rotate: false
+  xy: 2, 2
+  size: 129, 255
+  orig: 129, 255
+  offset: 0, 0
+  index: 52
+
+objects30.png
+size: 32, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+skeleton/skeleton
+  rotate: false
+  xy: 2, 2
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+
+objects31.png
+size: 256, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+smoke/Tile
+  rotate: false
+  xy: 2, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 1
+smoke/Tile
+  rotate: false
+  xy: 36, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 2
+smoke/Tile
+  rotate: false
+  xy: 70, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: 3
+smoke/smoke
+  rotate: false
+  xy: 104, 2
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+
+objects32.png
+size: 16, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+sword/sword
+  rotate: false
+  xy: 2, 2
+  size: 11, 41
+  orig: 11, 41
+  offset: 0, 0
+  index: -1
+
+objects33.png
+size: 128, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+tree1/tree1
+  rotate: false
+  xy: 2, 2
+  size: 74, 127
+  orig: 74, 127
+  offset: 0, 0
+  index: -1
+
+objects34.png
+size: 128, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+tree2/Tree2
+  rotate: false
+  xy: 2, 2
+  size: 87, 151
+  orig: 87, 151
+  offset: 0, 0
+  index: -1
+
+objects35.png
+size: 64, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+well/well
+  rotate: false
+  xy: 2, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+
+objects36.png
+size: 64, 32
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+workbench/workbench
+  rotate: false
+  xy: 2, 2
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1

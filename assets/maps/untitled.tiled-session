@@ -47,12 +47,29 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
-        "MAP.tmx": {
-            "scale": 0.125,
-            "selectedLayer": 4,
+        "Interior1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": -216,
-                "y": 1832
+                "x": -128,
+                "y": 0
+            }
+        },
+        "Interior1.tmx#Doors_windows_animation": {
+            "scaleInDock": 1
+        },
+        "Interior1.tmx#Interior": {
+            "scaleInDock": 1
+        },
+        "Interior1.tmx#walls_floor": {
+            "scaleInDock": 1
+        },
+        "MAP.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 3714,
+                "y": 7800
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -128,6 +145,11 @@
                 "y": 158.98876404494382
             }
         },
+        "objects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "rock_and_green_grass.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
@@ -148,22 +170,25 @@
     "last.externalTilesetPath": "D:/GAME_JAVA/assets/maps",
     "last.imagePath": "D:/GAME_JAVA/assets/maps/objects",
     "openFiles": [
-        "MAP.tmx"
+        "MAP.tmx",
+        "Interior.tsx",
+        "Interior1.tmx",
+        "objects.tsx"
     ],
     "project": "",
     "recentFiles": [
+        "objects.tsx",
+        "Interior1.tmx",
+        "Interior.tsx",
         "MAP.tmx",
         "Objects.tsx",
-        "Interior.tsx",
         "Size_03.tsx",
         "Bonfire_02-Sheet.tsx",
         "Walls.tsx",
         "Esoteric.tsx",
         "Furniture.tsx",
         "Dungeon_Props.tsx",
-        "Vegetation.tsx",
-        "Farm.tsx",
-        "Rocks.tsx"
+        "Vegetation.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",

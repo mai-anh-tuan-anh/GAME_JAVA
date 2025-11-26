@@ -32,7 +32,7 @@ public class LoadingScreen extends ScreenAdapter {
      */
     @Override
     public void render(float delta) {
-        if (assetService.update()) {
+        if (this.assetService.update()) {
             Gdx.app.debug("LoadingScreen", "Finished loading assets");
             createScreens();
             this.game.removeScreen(this);

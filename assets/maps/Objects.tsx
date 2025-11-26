@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="Objects" tilewidth="256" tileheight="256" tilecount="79" columns="0">
+<tileset version="1.10" tiledversion="1.11.2" name="objects" tilewidth="153" tileheight="255" tilecount="78" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="7" type="Houses">
   <properties>
@@ -65,7 +65,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Coal.png" width="46" height="30"/>
+  <image source="objects/coal.png" width="46" height="30"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="1" y="2" width="45" height="26"/>
   </objectgroup>
@@ -93,7 +93,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Tree2.png" width="87" height="151"/>
+  <image source="objects/tree2.png" width="87" height="151"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="30" y="113" width="21.6667" height="38"/>
   </objectgroup>
@@ -120,7 +120,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_03.png" width="37" height="76"/>
+  <image source="objects/size_03.png" width="37" height="76"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="15.3333" y="64" width="8.33333" height="12"/>
   </objectgroup>
@@ -129,7 +129,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_04.png" width="53" height="102"/>
+  <image source="objects/size_04.png" width="53" height="102"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="21.3333" y="78.6667" width="15" height="23.3333"/>
   </objectgroup>
@@ -138,7 +138,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_05.png" width="91" height="157"/>
+  <image source="objects/size_05.png" width="91" height="157"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="36" y="119" width="19" height="39"/>
   </objectgroup>
@@ -147,7 +147,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_051.png" width="89" height="156"/>
+  <image source="objects/size_051.png" width="89" height="156"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="34" y="123" width="19" height="33"/>
   </objectgroup>
@@ -156,7 +156,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_04-export.png" width="96" height="209"/>
+  <image source="objects/size_04-export.png" width="96" height="209"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="36" y="169" width="19" height="40"/>
   </objectgroup>
@@ -165,7 +165,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_041.png" width="54" height="104"/>
+  <image source="objects/size_041.png" width="54" height="104"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="19" y="84" width="16" height="20"/>
   </objectgroup>
@@ -174,7 +174,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_042.png" width="73" height="127"/>
+  <image source="objects/size_042.png" width="73" height="127"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="23" y="92" width="23" height="35"/>
   </objectgroup>
@@ -183,7 +183,7 @@
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
-  <image source="objects/Size_052.png" width="129" height="255"/>
+  <image source="objects/size_052.png" width="129" height="255"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="51" y="214" width="23" height="41"/>
   </objectgroup>
@@ -291,25 +291,22 @@
   <image source="objects/grill.png" width="60" height="44"/>
  </tile>
  <tile id="53">
-  <image source="Bones_shadow1_9.png" width="64" height="64"/>
+  <image source="objects/bones_shadow3_9.png" width="64" height="64"/>
  </tile>
  <tile id="54">
-  <image source="Bones_shadow2_8.png" width="64" height="64"/>
+  <image source="objects/bones_shadow3_10.png" width="64" height="64"/>
  </tile>
  <tile id="55">
-  <image source="Bones_shadow1_3.png" width="32" height="32"/>
+  <image source="objects/bones_shadow1_3.png" width="32" height="32"/>
  </tile>
  <tile id="56">
-  <image source="Bones_shadow1_1.png" width="32" height="32"/>
+  <image source="objects/bones_shadow1_1.png" width="32" height="32"/>
  </tile>
  <tile id="57">
-  <image source="Bones_shadow1_6.png" width="64" height="64"/>
- </tile>
- <tile id="58">
-  <image source="Lich_shadow1.png" width="256" height="256"/>
+  <image source="objects/bones_shadow1_6.png" width="64" height="64"/>
  </tile>
  <tile id="59">
-  <image source="Tile_00.png" width="48" height="80"/>
+  <image source="objects/tile_00.png" width="48" height="80"/>
   <animation>
    <frame tileid="59" duration="200"/>
    <frame tileid="60" duration="200"/>
@@ -394,21 +391,21 @@
   <image source="Grave_shadow1_17.png" width="32" height="32"/>
  </tile>
  <tile id="81">
-  <image source="Bones_shadow1_2.png" width="16" height="16"/>
+  <image source="objects/bones_shadow1_2.png" width="16" height="16"/>
  </tile>
  <tile id="82">
-  <image source="Bones_shadow1_4.png" width="32" height="32"/>
+  <image source="objects/bones_shadow1_4.png" width="32" height="32"/>
  </tile>
  <tile id="83">
-  <image source="Bones_shadow1_5.png" width="32" height="32"/>
+  <image source="objects/bones_shadow1_5.png" width="32" height="32"/>
  </tile>
  <tile id="84">
-  <image source="Bones_shadow1_7.png" width="64" height="64"/>
+  <image source="objects/bones_shadow1_7.png" width="64" height="64"/>
  </tile>
  <tile id="85">
-  <image source="Bones_shadow1_15.png" width="32" height="32"/>
+  <image source="objects/bones_shadow1_15.png" width="32" height="32"/>
  </tile>
  <tile id="86">
-  <image source="Bones_shadow3_12.png" width="64" height="64"/>
+  <image source="objects/bones_shadow3_12.png" width="64" height="64"/>
  </tile>
 </tileset>
