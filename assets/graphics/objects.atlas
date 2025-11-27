@@ -198,7 +198,7 @@ size: 64, 64
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-coal/Coal
+coal/coal
   rotate: false
   xy: 2, 2
   size: 46, 30
@@ -243,28 +243,28 @@ fire/Tile
   size: 32, 48
   orig: 32, 48
   offset: 0, 0
-  index: 0
+  index: 1
 fire/Tile
   rotate: false
   xy: 36, 2
   size: 32, 48
   orig: 32, 48
   offset: 0, 0
-  index: 1
+  index: 2
 fire/Tile
   rotate: false
   xy: 70, 2
   size: 32, 48
   orig: 32, 48
   offset: 0, 0
-  index: 2
-fire/Tile
+  index: 3
+fire/fire
   rotate: false
   xy: 104, 2
   size: 32, 48
   orig: 32, 48
   offset: 0, 0
-  index: 3
+  index: -1
 
 objects14.png
 size: 256, 256
@@ -332,45 +332,290 @@ orc/orc
   index: -1
 
 objects19.png
-size: 512, 128
+size: 1024, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
 player/idle_down
   rotate: false
-  xy: 2, 34
+  xy: 2, 134
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 0
 player/idle_down
   rotate: false
-  xy: 68, 34
+  xy: 2, 68
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 1
 player/idle_down
   rotate: false
-  xy: 134, 34
+  xy: 68, 134
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 2
 player/idle_down
   rotate: false
-  xy: 200, 34
+  xy: 2, 2
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: 3
-player/player
+player/idle_left
   rotate: false
-  xy: 2, 2
-  size: 16, 30
-  orig: 16, 30
+  xy: 68, 68
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
-  index: -1
+  index: 0
+player/idle_left
+  rotate: false
+  xy: 134, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/idle_left
+  rotate: false
+  xy: 68, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/idle_left
+  rotate: false
+  xy: 134, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/idle_right
+  rotate: false
+  xy: 200, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/idle_right
+  rotate: false
+  xy: 134, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/idle_right
+  rotate: false
+  xy: 200, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/idle_right
+  rotate: false
+  xy: 266, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/idle_up
+  rotate: false
+  xy: 200, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/idle_up
+  rotate: false
+  xy: 266, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/idle_up
+  rotate: false
+  xy: 332, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/idle_up
+  rotate: false
+  xy: 266, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/walk_down
+  rotate: false
+  xy: 332, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/walk_down
+  rotate: false
+  xy: 398, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/walk_down
+  rotate: false
+  xy: 332, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/walk_down
+  rotate: false
+  xy: 398, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/walk_down
+  rotate: false
+  xy: 464, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+player/walk_down
+  rotate: false
+  xy: 398, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+player/walk_left
+  rotate: false
+  xy: 464, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/walk_left
+  rotate: false
+  xy: 530, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/walk_left
+  rotate: false
+  xy: 464, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/walk_left
+  rotate: false
+  xy: 530, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/walk_left
+  rotate: false
+  xy: 596, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+player/walk_left
+  rotate: false
+  xy: 530, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+player/walk_right
+  rotate: false
+  xy: 596, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/walk_right
+  rotate: false
+  xy: 662, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/walk_right
+  rotate: false
+  xy: 596, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/walk_right
+  rotate: false
+  xy: 662, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/walk_right
+  rotate: false
+  xy: 728, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+player/walk_right
+  rotate: false
+  xy: 662, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
+player/walk_up
+  rotate: false
+  xy: 728, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 0
+player/walk_up
+  rotate: false
+  xy: 794, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 1
+player/walk_up
+  rotate: false
+  xy: 728, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+player/walk_up
+  rotate: false
+  xy: 794, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 3
+player/walk_up
+  rotate: false
+  xy: 860, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 4
+player/walk_up
+  rotate: false
+  xy: 794, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 5
 
 objects20.png
 size: 32, 64
@@ -403,7 +648,7 @@ size: 64, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_03/Size
+size_03/size
   rotate: false
   xy: 2, 2
   size: 37, 76
@@ -416,7 +661,7 @@ size: 64, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_04/Size
+size_04/size
   rotate: false
   xy: 2, 2
   size: 53, 102
@@ -429,7 +674,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_04-export/Size_04-export
+size_04-export/size_04-export
   rotate: false
   xy: 2, 2
   size: 96, 209
@@ -442,7 +687,7 @@ size: 64, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_041/Size
+size_041/size
   rotate: false
   xy: 2, 2
   size: 54, 104
@@ -455,7 +700,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_042/Size
+size_042/size
   rotate: false
   xy: 2, 2
   size: 73, 127
@@ -468,7 +713,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_05/Size
+size_05/size
   rotate: false
   xy: 2, 2
   size: 91, 157
@@ -481,7 +726,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_051/Size
+size_051/size
   rotate: false
   xy: 2, 2
   size: 89, 156
@@ -494,7 +739,7 @@ size: 256, 512
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_052/Size
+size_052/size
   rotate: false
   xy: 2, 2
   size: 129, 255
@@ -580,7 +825,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-tree2/Tree2
+tree2/tree2
   rotate: false
   xy: 2, 2
   size: 87, 151

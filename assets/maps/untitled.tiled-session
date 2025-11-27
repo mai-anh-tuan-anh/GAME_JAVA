@@ -12,6 +12,11 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "C:/Users/ADMIN/Downloads/Dungeon_Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "D:/GAME_JAVA/Raw Asset/Tiled_files/exterior.tsx": {
             "scaleInDock": 1
         },
@@ -66,10 +71,10 @@
         },
         "MAP.tmx": {
             "scale": 0.5,
-            "selectedLayer": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 3714,
-                "y": 7800
+                "x": 1808,
+                "y": 5338
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -77,10 +82,11 @@
         },
         "Objects.tsx": {
             "dynamicWrapping": true,
-            "scaleInDock": 1,
+            "scaleInDock": 0.5,
             "scaleInEditor": 1
         },
         "Props.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -89,6 +95,7 @@
             "scaleInEditor": 1
         },
         "Size_03.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -165,35 +172,46 @@
                 "x": -208.43373493975906,
                 "y": 84.93975903614458
             }
+        },
+        "wall_crawl_tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "wall_tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         }
     },
     "last.externalTilesetPath": "D:/GAME_JAVA/assets/maps",
-    "last.imagePath": "D:/GAME_JAVA/assets/maps/objects",
+    "last.imagePath": "D:/Asset/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Environment/Props/Static",
     "openFiles": [
         "MAP.tmx",
-        "Interior.tsx",
-        "Interior1.tmx",
-        "objects.tsx"
+        "objects.tsx",
+        "C:/Users/ADMIN/Downloads/Dungeon_Props.tsx",
+        "wall_tiles.tsx",
+        "wall_crawl_tiles.tsx"
     ],
     "project": "",
     "recentFiles": [
+        "wall_crawl_tiles.tsx",
+        "wall_tiles.tsx",
+        "C:/Users/ADMIN/Downloads/Dungeon_Props.tsx",
         "objects.tsx",
+        "MAP.tmx",
         "Interior1.tmx",
         "Interior.tsx",
-        "MAP.tmx",
         "Objects.tsx",
         "Size_03.tsx",
         "Bonfire_02-Sheet.tsx",
         "Walls.tsx",
-        "Esoteric.tsx",
-        "Furniture.tsx",
-        "Dungeon_Props.tsx",
-        "Vegetation.tsx"
+        "Esoteric.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 16,
-        "width": 16
+        "height": 20,
+        "width": 20
     }
 }

@@ -1,7 +1,6 @@
 package oop.duong.rpggame.RPGGame.utils;
 
 import com.badlogic.gdx.tools.texturepacker.TexturePacker;
-
 public class TexturePackerTool {
     public static void main(String[] args) {
         // packMap();
