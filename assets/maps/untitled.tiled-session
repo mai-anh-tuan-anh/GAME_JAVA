@@ -71,11 +71,11 @@
             "scaleInDock": 1
         },
         "MAP.tmx": {
-            "scale": 2,
+            "scale": 1,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 3764,
-                "y": 5576.5
+                "x": -174,
+                "y": 5556
             }
         },
         "Núi đá và cỏ xanh.tsx": {
