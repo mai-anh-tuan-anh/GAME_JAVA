@@ -5,6 +5,7 @@ import com.badlogic.gdx.ScreenAdapter;
 import oop.duong.rpggame.RPGGame;
 import oop.duong.rpggame.asset.AssetService;
 import oop.duong.rpggame.asset.AtlasAsset;
+import oop.duong.rpggame.asset.SkinAsset;
 
 public class LoadingScreen extends ScreenAdapter {
 
@@ -16,20 +17,14 @@ public class LoadingScreen extends ScreenAdapter {
         this.assetService = game.getAssetService();
     }
 
-    /**
-     * Queues all required assets for loading.
-     */
     @Override
     public void show() {
         for (AtlasAsset atlasAsset : AtlasAsset.values()) {
             assetService.queue(atlasAsset);
         }
-
+        assetService.queue(SkinAsset.DEFAULT);
     }
 
-    /**
-     * Updates asset loading progress and transitions to menu when complete.
-     */
     @Override
     public void render(float delta) {
         if (this.assetService.update()) {
@@ -37,11 +32,12 @@ public class LoadingScreen extends ScreenAdapter {
             createScreens();
             this.game.removeScreen(this);
             this.dispose();
-
+            this.game.setScreen(MenuScreen.class);
         }
     }
 
     private void createScreens() {
+        this.game.addScreen(new MenuScreen(this.game));
         this.game.addScreen(new GameScreen(this.game));
     }
 }

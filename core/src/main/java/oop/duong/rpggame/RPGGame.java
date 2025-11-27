@@ -17,6 +17,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import oop.duong.rpggame.asset.AssetService;
 import oop.duong.rpggame.asset.AtlasAsset;
 import oop.duong.rpggame.screen.GameScreen;
+import oop.duong.rpggame.screen.LoadingScreen;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -83,9 +84,10 @@ public class RPGGame extends Game {
         this.glProfiler.enable();
         this.fpsLogger = new FPSLogger();
 
-        addScreen(new GameScreen(this)); // <-- Thêm dòng này
+        addScreen(new LoadingScreen(this)); // <-- Thêm dòng này
 
-        setScreen(GameScreen.class);
+        setScreen(LoadingScreen.class);
+
 
     }
 
