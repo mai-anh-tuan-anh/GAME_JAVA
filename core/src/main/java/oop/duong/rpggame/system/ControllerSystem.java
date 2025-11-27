@@ -3,13 +3,20 @@ package oop.duong.rpggame.system;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.core.Family;
 import com.badlogic.ashley.systems.IteratingSystem;
+import oop.duong.rpggame.asset.SoundAsset;
+import oop.duong.rpggame.audio.AudioService;
 import oop.duong.rpggame.component.Controller;
 import oop.duong.rpggame.component.Move;
 import oop.duong.rpggame.input.Command;
 
 public class ControllerSystem extends IteratingSystem {
-    public ControllerSystem() {
+
+    private final AudioService audioService;
+
+    public ControllerSystem(AudioService audioService) {
+
         super(Family.all(Controller.class).get());
+        this.audioService = audioService;
     }
 
     @Override
@@ -24,6 +31,7 @@ public class ControllerSystem extends IteratingSystem {
                 case DOWN -> moveEntity(entity,0f,-1f);
                 case RIGHT -> moveEntity(entity,1f,0f);
                 case LEFT -> moveEntity(entity,-1f,0f);
+                case SELECT -> startEntityAttack(entity);
             }
         }
         controller.getPressedCommands().clear();
@@ -37,6 +45,11 @@ public class ControllerSystem extends IteratingSystem {
             }
         }
         controller.getReleasedCommands().clear();
+    }
+    private void startEntityAttack(Entity entity) {
+
+        audioService.playSound(SoundAsset.SWORD_HIT);
+
     }
 
     private void moveEntity(Entity entity, float directionX, float directionY) {

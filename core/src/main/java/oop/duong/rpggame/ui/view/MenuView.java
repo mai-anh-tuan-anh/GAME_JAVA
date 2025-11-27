@@ -77,11 +77,11 @@ public class MenuView extends View<MenuViewModel>{
         contentTable.add(textButton).row();
 
         Slider musicSlider = setupVolumeSlider(contentTable, "Music Volume", MenuOption.MUSIC_VOLUME);
-        //musicSlider.setValue(viewModel.getMusicVolume());
+        musicSlider.setValue(viewModel.getMusicVolume());
         onChange(musicSlider, (slider) -> viewModel.setMusicVolume(slider.getValue()));
 
         Slider soundSlider = setupVolumeSlider(contentTable, "Sound Volume", MenuOption.SOUND_VOLUME);
-        //soundSlider.setValue(viewModel.getSoundVolume());
+        soundSlider.setValue(viewModel.getSoundVolume());
         onChange(soundSlider, (slider) -> viewModel.setSoundVolume(slider.getValue()));
 
         textButton = new TextButton("Quit Game", skin);
