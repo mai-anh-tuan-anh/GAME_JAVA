@@ -194,7 +194,7 @@
  <tile id="29">
   <image source="objects/rogue.png" width="19" height="30"/>
   <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="0" width="19" height="30"/>
+   <object id="3" x="0" y="0" width="19" height="30"/>
   </objectgroup>
  </tile>
  <tile id="30">
@@ -226,6 +226,9 @@
  </tile>
  <tile id="35">
   <image source="objects/knight.png" width="18" height="29"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="18" height="29"/>
+  </objectgroup>
  </tile>
  <tile id="36">
   <image source="objects/fire.png" width="32" height="48"/>
