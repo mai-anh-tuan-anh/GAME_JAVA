@@ -82,12 +82,12 @@
  <tile id="17">
   <properties>
    <property name="animation" value="IDLE"/>
-   <property name="animationSpeed" type="float" value="4"/>
+   <property name="animationSpeed" type="float" value="1"/>
    <property name="atlasAsset" value="OBJECTS"/>
    <property name="controller" type="bool" value="true"/>
    <property name="speed" type="float" value="4"/>
   </properties>
-  <image source="objects/player.png" width="16" height="30"/>
+  <image source="objects/player.png" width="64" height="64"/>
  </tile>
  <tile id="18">
   <properties>

@@ -343,6 +343,13 @@ player/idle_down
   orig: 64, 64
   offset: 0, 0
   index: 0
+player/player
+  rotate: false
+  xy: 2, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 player/idle_down
   rotate: false
   xy: 2, 68

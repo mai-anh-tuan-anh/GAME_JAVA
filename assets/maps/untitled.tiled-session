@@ -37,6 +37,7 @@
             "scaleInEditor": 1
         },
         "Floors_Tiles.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -70,11 +71,11 @@
             "scaleInDock": 1
         },
         "MAP.tmx": {
-            "scale": 0.5,
+            "scale": 2,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 1808,
-                "y": 5338
+                "x": 3764,
+                "y": 5576.5
             }
         },
         "Núi đá và cỏ xanh.tsx": {
@@ -191,10 +192,12 @@
         "objects.tsx",
         "C:/Users/ADMIN/Downloads/Dungeon_Props.tsx",
         "wall_tiles.tsx",
-        "wall_crawl_tiles.tsx"
+        "wall_crawl_tiles.tsx",
+        "Floors_Tiles.tsx"
     ],
     "project": "",
     "recentFiles": [
+        "Floors_Tiles.tsx",
         "wall_crawl_tiles.tsx",
         "wall_tiles.tsx",
         "C:/Users/ADMIN/Downloads/Dungeon_Props.tsx",
@@ -205,8 +208,7 @@
         "Objects.tsx",
         "Size_03.tsx",
         "Bonfire_02-Sheet.tsx",
-        "Walls.tsx",
-        "Esoteric.tsx"
+        "Walls.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx",
