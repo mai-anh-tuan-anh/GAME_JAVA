@@ -1,4 +1,3 @@
-
 objects.png
 size: 128, 64
 format: RGBA8888
@@ -655,7 +654,7 @@ size: 64, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_03/size
+size_03/size_03
   rotate: false
   xy: 2, 2
   size: 37, 76
@@ -668,7 +667,7 @@ size: 64, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_04/size
+size_04/size_04
   rotate: false
   xy: 2, 2
   size: 53, 102
@@ -694,7 +693,7 @@ size: 64, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_041/size
+size_041/size_041
   rotate: false
   xy: 2, 2
   size: 54, 104
@@ -707,7 +706,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_042/size
+size_042/size_042
   rotate: false
   xy: 2, 2
   size: 73, 127
@@ -720,7 +719,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_05/size
+size_05/size_05
   rotate: false
   xy: 2, 2
   size: 91, 157
@@ -733,7 +732,7 @@ size: 128, 256
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_051/size
+size_051/size_051
   rotate: false
   xy: 2, 2
   size: 89, 156
@@ -746,7 +745,7 @@ size: 256, 512
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-size_052/size
+size_052/size_052
   rotate: false
   xy: 2, 2
   size: 129, 255
