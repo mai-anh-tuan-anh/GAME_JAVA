@@ -2,9 +2,22 @@
 <tileset version="1.10" tiledversion="1.11.2" name="Water_tiles" tilewidth="16" tileheight="16" tilecount="625" columns="25">
  <image source="Water_tiles.png" width="400" height="400"/>
  <tile id="0" type="Water"/>
- <tile id="1" type="Water"/>
- <tile id="2" type="Water"/>
- <tile id="3" type="Water"/>
+ <tile id="1" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="4.72727" y="3.63636" width="11.2727" height="12.3636"/>
+  </objectgroup>
+ </tile>
+ <tile id="2" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+   <object id="2" x="0" y="5.45455" width="16.3636" height="7.09091"/>
+  </objectgroup>
+ </tile>
+ <tile id="3" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="5.90909" width="12.6364" height="10.0909"/>
+  </objectgroup>
+ </tile>
  <tile id="4" type="Water"/>
  <tile id="5" type="Water"/>
  <tile id="6" type="Water"/>
@@ -28,8 +41,16 @@
  <tile id="25" type="Water"/>
  <tile id="26" type="Water"/>
  <tile id="27" type="Water"/>
- <tile id="28" type="Water"/>
- <tile id="29" type="Water"/>
+ <tile id="28" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="4" x="4.81818" y="-0.0909091" width="11" height="11.7273"/>
+  </objectgroup>
+ </tile>
+ <tile id="29" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="5.72727" width="13.5455" height="10.2727"/>
+  </objectgroup>
+ </tile>
  <tile id="30" type="Water"/>
  <tile id="31" type="Water"/>
  <tile id="32" type="Water"/>
@@ -53,7 +74,11 @@
  <tile id="51" type="Water"/>
  <tile id="52" type="Water"/>
  <tile id="53" type="Water"/>
- <tile id="54" type="Water"/>
+ <tile id="54" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="3.63636" y="0" width="8.90909" height="16"/>
+  </objectgroup>
+ </tile>
  <tile id="55" type="Water"/>
  <tile id="56" type="Water"/>
  <tile id="57" type="Water"/>
@@ -77,7 +102,11 @@
  <tile id="76" type="Water"/>
  <tile id="77" type="Water"/>
  <tile id="78" type="Water"/>
- <tile id="79" type="Water"/>
+ <tile id="79" type="Water">
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="13.7273" height="11.9091"/>
+  </objectgroup>
+ </tile>
  <tile id="80" type="Water"/>
  <tile id="81" type="Water"/>
  <tile id="82" type="Water"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.2" name="objects" tilewidth="153" tileheight="255" tilecount="78" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
- <tile id="7" type="Houses">
+ <tile id="7" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -10,7 +10,7 @@
    <object id="1" x="12" y="37" width="131" height="94"/>
   </objectgroup>
  </tile>
- <tile id="8" type="Big Rock">
+ <tile id="8" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -19,7 +19,7 @@
    <object id="1" x="0" y="1" width="54" height="63"/>
   </objectgroup>
  </tile>
- <tile id="9" type="Medium Rock">
+ <tile id="9" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -28,7 +28,7 @@
    <object id="1" x="2" y="2" width="40" height="47"/>
   </objectgroup>
  </tile>
- <tile id="11" type="Bush">
+ <tile id="11" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -37,7 +37,7 @@
    <object id="1" x="3" y="2" width="31" height="32"/>
   </objectgroup>
  </tile>
- <tile id="12" type="Scarescrow">
+ <tile id="12" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -46,13 +46,13 @@
    <object id="1" x="0" y="0" width="53" height="59"/>
   </objectgroup>
  </tile>
- <tile id="13" type="Wooden Box">
+ <tile id="13" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
   <image source="objects/box_of_coal.png" width="15" height="20"/>
   <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="0" width="26" height="37"/>
+   <object id="1" x="0" y="0" width="15" height="20"/>
   </objectgroup>
  </tile>
  <tile id="14" type="Mushroom">
@@ -70,7 +70,7 @@
    <object id="1" x="1" y="2" width="45" height="26"/>
   </objectgroup>
  </tile>
- <tile id="16">
+ <tile id="16" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -88,8 +88,11 @@
    <property name="speed" type="float" value="4"/>
   </properties>
   <image source="objects/player.png" width="64" height="64"/>
+  <objectgroup draworder="index" id="3">
+   <object id="6" x="24" y="39.8182" width="15.0909" height="8.54545"/>
+  </objectgroup>
  </tile>
- <tile id="18">
+ <tile id="18" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -98,7 +101,7 @@
    <object id="1" x="30" y="113" width="21.6667" height="38"/>
   </objectgroup>
  </tile>
- <tile id="19">
+ <tile id="19" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -107,7 +110,7 @@
    <object id="5" x="23.3333" y="97.3333" width="22" height="27.3333"/>
   </objectgroup>
  </tile>
- <tile id="20">
+ <tile id="20" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -116,7 +119,7 @@
    <object id="1" x="0" y="0" width="38" height="38"/>
   </objectgroup>
  </tile>
- <tile id="21">
+ <tile id="21" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -125,7 +128,7 @@
    <object id="1" x="15.3333" y="64" width="8.33333" height="12"/>
   </objectgroup>
  </tile>
- <tile id="22">
+ <tile id="22" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -134,7 +137,7 @@
    <object id="1" x="21.3333" y="78.6667" width="15" height="23.3333"/>
   </objectgroup>
  </tile>
- <tile id="23">
+ <tile id="23" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -143,7 +146,7 @@
    <object id="1" x="36" y="119" width="19" height="39"/>
   </objectgroup>
  </tile>
- <tile id="24">
+ <tile id="24" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -152,7 +155,7 @@
    <object id="1" x="34" y="123" width="19" height="33"/>
   </objectgroup>
  </tile>
- <tile id="25">
+ <tile id="25" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -161,7 +164,7 @@
    <object id="1" x="36" y="169" width="19" height="40"/>
   </objectgroup>
  </tile>
- <tile id="26">
+ <tile id="26" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -170,7 +173,7 @@
    <object id="1" x="19" y="84" width="16" height="20"/>
   </objectgroup>
  </tile>
- <tile id="27">
+ <tile id="27" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -179,7 +182,7 @@
    <object id="1" x="23" y="92" width="23" height="35"/>
   </objectgroup>
  </tile>
- <tile id="28">
+ <tile id="28" type="Prob">
   <properties>
    <property name="atlasAsset" value="OBJECTS"/>
   </properties>
@@ -200,7 +203,7 @@
    <object id="1" x="0" y="0" width="62" height="41"/>
   </objectgroup>
  </tile>
- <tile id="31">
+ <tile id="31" type="Prob">
   <image source="objects/chest.png" width="16" height="20"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0" width="16" height="20"/>
@@ -271,6 +274,9 @@
  </tile>
  <tile id="46">
   <image source="objects/box.png" width="26" height="39"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="26" height="37"/>
+  </objectgroup>
  </tile>
  <tile id="47">
   <image source="objects/bed.png" width="22" height="39"/>
@@ -292,9 +298,15 @@
  </tile>
  <tile id="53">
   <image source="objects/bones_shadow3_9.png" width="64" height="64"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="16.2498" y="29.6813" width="19.8874" height="31.8908" rotation="1.13333"/>
+  </objectgroup>
  </tile>
  <tile id="54">
   <image source="objects/bones_shadow3_10.png" width="64" height="64"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="26.8182" y="27.6364" width="20" height="34.7273"/>
+  </objectgroup>
  </tile>
  <tile id="55">
   <image source="objects/bones_shadow1_3.png" width="32" height="32"/>
@@ -305,8 +317,11 @@
  <tile id="57">
   <image source="objects/bones_shadow1_6.png" width="64" height="64"/>
  </tile>
- <tile id="59">
+ <tile id="59" type="Prob">
   <image source="objects/tile_00.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
   <animation>
    <frame tileid="59" duration="200"/>
    <frame tileid="60" duration="200"/>
@@ -327,56 +342,107 @@
    <frame tileid="76" duration="200"/>
   </animation>
  </tile>
- <tile id="60">
+ <tile id="60" type="Prob">
   <image source="Tile_01.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="61">
+ <tile id="61" type="Prob">
   <image source="Tile_02.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="62">
+ <tile id="62" type="Prob">
   <image source="Tile_03.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="63">
+ <tile id="63" type="Prob">
   <image source="Tile_04.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="64">
+ <tile id="64" type="Prob">
   <image source="Tile_05.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="65">
+ <tile id="65" type="Prob">
   <image source="Tile_06.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="66">
+ <tile id="66" type="Prob">
   <image source="Tile_07.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="67">
+ <tile id="67" type="Prob">
   <image source="Tile_08.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="68">
+ <tile id="68" type="Prob">
   <image source="Tile_09.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="69">
+ <tile id="69" type="Prob">
   <image source="Tile_10.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="70">
+ <tile id="70" type="Prob">
   <image source="Tile_11.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="71">
+ <tile id="71" type="Prob">
   <image source="Tile_12.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="72">
+ <tile id="72" type="Prob">
   <image source="Tile_13.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="73">
+ <tile id="73" type="Prob">
   <image source="Tile_14.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="74">
+ <tile id="74" type="Prob">
   <image source="Tile_15.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="75">
+ <tile id="75" type="Prob">
   <image source="Tile_16.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
- <tile id="76">
+ <tile id="76" type="Prob">
   <image source="Tile_17.png" width="48" height="80"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="5" y="6" width="38" height="71"/>
+  </objectgroup>
  </tile>
  <tile id="77">
   <image source="Grave_shadow1_4.png" width="32" height="32"/>
@@ -405,7 +471,10 @@
  <tile id="85">
   <image source="objects/bones_shadow1_15.png" width="32" height="32"/>
  </tile>
- <tile id="86">
+ <tile id="86" type="Prob">
   <image source="objects/bones_shadow3_12.png" width="64" height="64"/>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="10" y="12" width="43" height="39"/>
+  </objectgroup>
  </tile>
 </tileset>
