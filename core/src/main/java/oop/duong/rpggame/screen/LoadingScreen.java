@@ -6,6 +6,7 @@ import oop.duong.rpggame.RPGGame;
 import oop.duong.rpggame.asset.AssetService;
 import oop.duong.rpggame.asset.AtlasAsset;
 import oop.duong.rpggame.asset.SkinAsset;
+import oop.duong.rpggame.asset.SoundAsset;
 
 public class LoadingScreen extends ScreenAdapter {
 
@@ -23,6 +24,10 @@ public class LoadingScreen extends ScreenAdapter {
             assetService.queue(atlasAsset);
         }
         assetService.queue(SkinAsset.DEFAULT);
+
+        for (SoundAsset sound : SoundAsset.values()) {
+            assetService.queue(sound);
+        }
     }
 
     @Override

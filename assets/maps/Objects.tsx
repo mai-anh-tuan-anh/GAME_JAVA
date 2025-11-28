@@ -67,7 +67,7 @@
   </properties>
   <image source="objects/coal.png" width="46" height="30"/>
   <objectgroup draworder="index" id="2">
-   <object id="1" x="1" y="2" width="45" height="26"/>
+   <object id="2" type="Prop" x="9.75" y="0.75" width="33.5" height="20.25"/>
   </objectgroup>
  </tile>
  <tile id="16" type="Prop">
@@ -230,7 +230,7 @@
    <object id="1" x="0" y="0" width="18" height="29"/>
   </objectgroup>
  </tile>
- <tile id="36">
+ <tile id="36" type="Prop">
   <image source="objects/fire.png" width="32" height="48"/>
   <objectgroup draworder="index" id="2">
    <object id="1" x="12" y="18" width="9" height="15"/>
@@ -242,13 +242,13 @@
    <frame tileid="39" duration="200"/>
   </animation>
  </tile>
- <tile id="37">
+ <tile id="37" type="Prop">
   <image source="objects/fire.png" width="32" height="48"/>
  </tile>
- <tile id="38">
+ <tile id="38" type="Prop">
   <image source="objects/fire.png" width="32" height="48"/>
  </tile>
- <tile id="39">
+ <tile id="39" type="Prop">
   <image source="objects/fire.png" width="32" height="48"/>
  </tile>
  <tile id="40">

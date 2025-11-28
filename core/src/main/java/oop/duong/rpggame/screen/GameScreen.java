@@ -5,14 +5,11 @@ import com.badlogic.ashley.core.EntitySystem;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.ScreenAdapter;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Disposable;
-import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.badlogic.gdx.utils.viewport.Viewport;
 import oop.duong.rpggame.RPGGame;
 import oop.duong.rpggame.asset.MapAsset;
+import oop.duong.rpggame.audio.AudioService;
 import oop.duong.rpggame.input.GameControllerState;
 import oop.duong.rpggame.input.KeyboardController;
 import oop.duong.rpggame.system.*;
@@ -34,8 +31,7 @@ public class GameScreen extends ScreenAdapter {
     private final KeyboardController keyboardController;
     private final RPGGame game;
     private final World physicWorld;
-    private final Stage stage;
-    private final Viewport uiViewport;
+    private final AudioService audioService;
 
 
 
@@ -53,10 +49,9 @@ public class GameScreen extends ScreenAdapter {
         );
 
         this.keyboardController = new KeyboardController(GameControllerState.class,engine);
-        this.uiViewport = new FitViewport(320f, 180f);
-        this.stage = new Stage(uiViewport, game.getBatch());
+        this.audioService = game.getAudioService();
 
-        this.engine.addSystem(new ControllerSystem());
+        this.engine.addSystem(new ControllerSystem(game.getAudioService()));
         this.engine.addSystem(new PhysicMoveSystem());
 
         this.engine.addSystem(new FsmSystem());
@@ -70,20 +65,15 @@ public class GameScreen extends ScreenAdapter {
     }
 
     @Override
-    public void resize(int width, int height) {
-        super.resize(width, height);
-        this.uiViewport.update(width, height, true);
-    }
-
-    @Override
     public void show() {
-        game.setInputProcessors(keyboardController, stage);
+        game.setInputProcessors(keyboardController);
         keyboardController.setActiveState(GameControllerState.class);
 
         Consumer<TiledMap> renderConsumer = this.engine.getSystem(RenderSystem.class)::setMap;
         Consumer<TiledMap> cameraConsumer   = this.engine.getSystem(CameraSystem.class)::setMap;
-        this.tiledService.setMapChangeConsumer(renderConsumer.andThen(cameraConsumer));
+        Consumer<TiledMap> audioConsumer = this.audioService::setMap;
 
+        this.tiledService.setMapChangeConsumer(renderConsumer.andThen(cameraConsumer).andThen(audioConsumer));
         this.tiledService.setLoadTileConsumer(this.tiledAshleyConfigurator::onLoadTile);
         this.tiledService.setLoadObjectConsumer(this.tiledAshleyConfigurator::onLoadObject);
 
@@ -96,7 +86,6 @@ public class GameScreen extends ScreenAdapter {
     @Override
     public void hide() {
         this.engine.removeAllEntities();
-        this.stage.clear();
     }
 
     @Override
@@ -108,11 +97,6 @@ public class GameScreen extends ScreenAdapter {
         if(Gdx.input.isKeyJustPressed(Input.Keys.W)) {
             System.out.println("W was just pressed");
         }
-
-        uiViewport.apply();
-        stage.getBatch().setColor(Color.WHITE);
-        stage.act(delta);
-        stage.draw();
     }
 
     @Override
@@ -123,7 +107,6 @@ public class GameScreen extends ScreenAdapter {
             }
         }
         this.physicWorld.dispose();
-        this.stage.dispose();
     }
 }
 

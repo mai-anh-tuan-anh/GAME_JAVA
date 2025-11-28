@@ -16,6 +16,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import oop.duong.rpggame.asset.AssetService;
 import oop.duong.rpggame.asset.AtlasAsset;
+import oop.duong.rpggame.audio.AudioService;
 import oop.duong.rpggame.screen.GameScreen;
 import oop.duong.rpggame.screen.LoadingScreen;
 
@@ -24,8 +25,8 @@ import java.util.Map;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class RPGGame extends Game {
-    public static final float WORLD_WIDTH = 16f;
-    public static final float WORLD_HEIGHT = 9f;
+    public static final float WORLD_WIDTH = 32f;
+    public static final float WORLD_HEIGHT = 18f;
     public static final float UNIT_SCALE = 1f/16f;
 
     private Batch batch;
@@ -35,6 +36,7 @@ public class RPGGame extends Game {
     private GLProfiler glProfiler;
     private FPSLogger fpsLogger;
     private InputMultiplexer inputMultiplexer;
+    private AudioService audioService;
 
     private final Map<Class<? extends Screen>, Screen> screenCache = new HashMap<>();
 
@@ -73,6 +75,8 @@ public class RPGGame extends Game {
         this.camera = new OrthographicCamera();
         this.viewport = new FitViewport(WORLD_WIDTH, WORLD_HEIGHT, camera);
         this.assetService = new AssetService(new InternalFileHandleResolver());
+        this.audioService = new AudioService(assetService);
+
 
         assetService.load(AtlasAsset.OBJECTS);
 
@@ -158,6 +162,9 @@ public class RPGGame extends Game {
         for (InputProcessor processor : processors) {
             inputMultiplexer.addProcessor(processor);
         }
+    }
+    public AudioService getAudioService() {
+        return audioService;
     }
 
 }
