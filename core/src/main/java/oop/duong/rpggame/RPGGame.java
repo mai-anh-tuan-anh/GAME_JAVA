@@ -25,8 +25,8 @@ import java.util.Map;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class RPGGame extends Game {
-    public static final float WORLD_WIDTH = 16f;
-    public static final float WORLD_HEIGHT = 9f;
+    public static final float WORLD_WIDTH = 32f;
+    public static final float WORLD_HEIGHT = 18f;
     public static final float UNIT_SCALE = 1f/16f;
 
     private Batch batch;
