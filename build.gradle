@@ -2,6 +2,11 @@ buildscript {
   repositories {
     mavenCentral()
     maven { url 'https://s01.oss.sonatype.org' }
+    maven {
+            name = "SonatypeSnapshots"
+            url = "https://oss.sonatype.org/content/repositories/snapshots/"
+            mavenContent { snapshotsOnly() }
+        }
     gradlePluginPortal()
     mavenLocal()
     google()
